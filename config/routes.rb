@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   
   resources :students, only: [:index, :show]
   
-  get :students
+  get '/students/:id/activate'
 end
